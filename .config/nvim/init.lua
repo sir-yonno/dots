@@ -1,5 +1,6 @@
 require 'visimp' {
   defaults = {
+    colorcolumn = 0,
     foldmethod = 'marker',
   },
   binds = {
@@ -16,27 +17,22 @@ require 'visimp' {
   languages = {
     'c',
     'latex',
-    'lua',
+--  'lua',
     'javascript',
     'html',
     'css',
     'json',
     'vue',
-    'go',
-    'rust'
+--    'go',
+--    'rust'
   },
+  --alternatives: jacoborus/tender.vim
+  --patstockwell/vim-monokai-tasty
+  --
   theme = {
-    package = 'ellisonleao/gruvbox.nvim',
-    colorscheme = 'gruvbox',
+    package = 'ray-x/aurora',
+    colorscheme = 'aurora',
     background = 'dark',
-    lualine = 'gruvbox',
-    before = function()
-      require'gruvbox'.setup{
-        contrast = 'hard',
-        overrides = {
-          NormalFloat = { link = 'Normal' }
-        },
-      }
-    end
+    lualine = 'aurora',
   },
 }

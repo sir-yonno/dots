@@ -1,7 +1,7 @@
 [user]
-	email = luca.tagliavini5@studio.unibo.it
-	name = Luca
-	signingkey = 3133FC373370010F 
+	email = yonas12@outlook.it
+	name = Yonas
+	signingkey = 9D55DDE20D9F02934D93EDFC5F8129B4F3DF6AFE
 
 [commit]
   gpgsign = true

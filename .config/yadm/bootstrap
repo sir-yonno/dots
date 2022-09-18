@@ -7,10 +7,6 @@ assert_command() {
   fi
 }
 
-# Create the boot entry for the system
-assert_command kesboot
-sh $HOME/.config/yadm/bootstrap-kesboot
-
 # Install the prezto zsh framework
 if ! test -d $HOME/.config/zsh/.zprezto; then
   assert_command zsh

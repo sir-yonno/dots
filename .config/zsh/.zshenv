@@ -13,3 +13,6 @@ export GPG_TTY=$(tty)
 
 # Default programs
 export EDITOR=nvim
+
+# Use QT Wayland Plugin
+export QT_QPA_PLATFORM=wayland

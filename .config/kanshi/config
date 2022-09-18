@@ -1,13 +1,3 @@
 profile {
-  output eDP-1 disable
-  output "Samsung Electric Company" scale 1.15
-}
-
-profile {
-  output eDP-1 disable
-  output "BenQ Corporation BenQ" scale 1
-}
-
-profile {
-  output eDP-1 enable scale 1.15
+  output eDP-1 scale 1.15
 }
