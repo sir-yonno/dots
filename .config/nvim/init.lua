@@ -34,5 +34,8 @@ require 'visimp' {
     colorscheme = 'aurora',
     background = 'dark',
     lualine = 'aurora',
+    before = function()
+      vim.g.aurora_transparent = 1
+    end
   },
 }

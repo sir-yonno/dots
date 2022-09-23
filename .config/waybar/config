@@ -8,11 +8,11 @@
     "format-wifi": "",
     "format-ethernet": "",
     "format-disconnected": "睊",
-    "on-click": "footclient -o font='monospace:size=12' -T <%+ ../../.var/internal/nmtui_window_title %> nmtui"
+    "on-click": "footclient -o font='monospace:size=12' -T nmtui-foot nmtui"
   },
   "bluetooth": {
     "format": "",
-    "on-click": "footclient -o font='monospace:size=12' -T <%+ ../../.var/internal/bluetoothctl_window_title %> bluetoothctl"
+    "on-click": "footclient -o font='monospace:size=12' -T bluetoothctl-foot bluetoothctl"
   },
   "pulseaudio": {
     "format": "{icon} {volume}%",

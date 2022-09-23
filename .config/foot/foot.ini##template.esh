@@ -1,0 +1,36 @@
+font=monospace:size=16
+term=foot
+dpi-aware=no
+pad=4x4 center
+
+[scrollback]
+lines=10000
+
+[url]
+launch=xdg-open ${url}
+protocols = http, https
+
+[mouse]
+hide-when-typing=yes
+alternate-scroll-mode=yes
+
+[colors]
+alpha=0.9
+background=<%+ ../../.var/colors/bg %>
+foreground=<%+ ../../.var/colors/fg %>
+regular0=<%+ ../../.var/colors/black %>
+regular1=<%+ ../../.var/colors/red %>
+regular2=<%+ ../../.var/colors/purple %>
+regular3=<%+ ../../.var/colors/yellow %>
+regular4=be9af7
+regular5=<%+ ../../.var/colors/orange %>
+regular6=a1efe4
+regular7=645775
+bright0=<%+ ../../.var/colors/bg %>
+bright1=ec5f67
+bright2=<%+ ../../.var/colors/lgreen %>
+bright3=fbec9f
+bright4=6690c4
+bright5=ffbe00
+bright6=54ced6
+bright7=<%+ ../../.var/colors/white %>

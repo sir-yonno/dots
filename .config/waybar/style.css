@@ -1,14 +1,14 @@
 * {
   border: none;
   border-radius: 0;
-  font-family: <%+ ../../.var/font_family %>;
+  font-family: SauceCodePro Nerd Font;
   font-size: 16px;
   min-height: 0;
 }
 
 window#waybar {
-  background: #<%+ ../../.var/colors/sky %>;
-  color: #<%+ ../../.var/colors/bg %>;
+  background: #b9ddeb;
+  color: #211c2f;
 }
 
 #mode, #workspaces button, #network, #bluetooth, #pulseaudio, #backlight, #battery, #clock {
@@ -18,36 +18,36 @@ window#waybar {
 
 #mode, #workspaces button, #clock {
   margin: 0;
-  color: #<%+ ../../.var/colors/bg %>;
+  color: #211c2f;
 
 }
 
 #mode {
-  color: #<%+ ../../.var/colors/sky %>;
-  background: #<%+ ../../.var/colors/aqua %>;
+  color: #b9ddeb;
+  background: #66d9ef;
 }
 
 #workspaces button.focused, #battery.charging, #battery.plugged {
-  color: #<%+ ../../.var/colors/ltext %>;
-  background: #<%+ ../../.var/colors/purple %>;
+  color: #daeeeb;
+  background: #be9af7;
 }
 
 @keyframes blink {
   to {
-    color: #<%+ ../../.var/colors/black %>;
-    background: #<%+ ../../.var/colors/red %>;
+    color: #070510;
+    background: #ff5874;
   }
 }
 
 #battery.warning:not(.charging) {
-  color: #<%+ ../../.var/colors/ltext %>;
-  background: #<%+ ../../.var/colors/orange %>;
+  color: #daeeeb;
+  background: #fd9720;
 }
 
 
 #battery.critical:not(.charging) {
-  color: #<%+ ../../.var/colors/ltext %>;
-  background: #<%+ ../../.var/colors/red %>;;
+  color: #daeeeb;
+  background: #ff5874;;
   animation-name: blink;
   animation-duration: 1s;
   animation-timing-function: linear;
