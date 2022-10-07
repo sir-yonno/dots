@@ -1,4 +1,5 @@
 require 'visimp' {
+  autopairs = {},
   defaults = {
     colorcolumn = 0,
     foldmethod = 'marker',
